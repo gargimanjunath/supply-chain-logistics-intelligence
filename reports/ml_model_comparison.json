@@ -1,0 +1,73 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.6959,
+    "precision": 0.8417,
+    "recall": 0.5485,
+    "f1_score": 0.6642,
+    "roc_auc": 0.7411,
+    "confusion_matrix": [
+      [
+        14266,
+        2042
+      ],
+      [
+        8937,
+        10859
+      ]
+    ]
+  },
+  "Decision Tree": {
+    "accuracy": 0.6962,
+    "precision": 0.8409,
+    "recall": 0.55,
+    "f1_score": 0.665,
+    "roc_auc": 0.746,
+    "confusion_matrix": [
+      [
+        14248,
+        2060
+      ],
+      [
+        8908,
+        10888
+      ]
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 0.7003,
+    "precision": 0.8334,
+    "recall": 0.5667,
+    "f1_score": 0.6747,
+    "roc_auc": 0.7502,
+    "confusion_matrix": [
+      [
+        14066,
+        2242
+      ],
+      [
+        8577,
+        11219
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "accuracy": 0.697,
+    "precision": 0.845,
+    "recall": 0.5479,
+    "f1_score": 0.6647,
+    "roc_auc": 0.745,
+    "confusion_matrix": [
+      [
+        14318,
+        1990
+      ],
+      [
+        8950,
+        10846
+      ]
+    ]
+  },
+  "best_model": "Random Forest",
+  "leakage_prevention_note": "Only pre-shipment (order-time) features were used. Fields only known after fulfillment (actual shipping days, delivery status, shipping date, realized profit) were excluded to prevent target leakage.",
+  "baseline_majority_class_accuracy": 0.5483
+}

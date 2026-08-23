@@ -1,0 +1,118 @@
+{
+  "raw_shape": [
+    180519,
+    53
+  ],
+  "grain_check": {
+    "n_rows": 180519,
+    "n_unique_order_ids": 65752,
+    "n_unique_order_item_ids": 180519,
+    "conclusion": "One row = one order line item (Order Item Id is unique per row; Order Id repeats across multiple line items). Counting rows as 'orders' would overstate order volume by roughly 174.5%."
+  },
+  "missing_values_before": {
+    "Product Description": 180519,
+    "Order Zipcode": 155679,
+    "Customer Lname": 8,
+    "Customer Zipcode": 3
+  },
+  "columns_dropped_pii_or_unusable": [
+    "Customer Email",
+    "Customer Password",
+    "Customer Fname",
+    "Customer Lname",
+    "Customer Street",
+    "Product Description",
+    "Product Image",
+    "Order Zipcode"
+  ],
+  "exact_duplicate_rows": 0,
+  "unparseable_dates": 0,
+  "invalid_numeric_flags": {
+    "negative_sales_rows": 0,
+    "negative_quantity_rows": 0,
+    "negative_price_rows": 0
+  },
+  "order_status_distribution": {
+    "COMPLETE": 59491,
+    "PENDING_PAYMENT": 39832,
+    "PROCESSING": 21902,
+    "PENDING": 20227,
+    "CLOSED": 19616,
+    "ON_HOLD": 9804,
+    "SUSPECTED_FRAUD": 4062,
+    "CANCELED": 3692,
+    "PAYMENT_REVIEW": 1893
+  },
+  "cancelled_or_fraud_rows": 7754,
+  "outlier_counts_iqr": {
+    "Sales": 488,
+    "Order Item Quantity": 0,
+    "Order Item Discount": 7537,
+    "Days for shipping (real)": 0
+  },
+  "documented_limitations": {
+    "supplier_entity": "The dataset has no dedicated Supplier table/ID. 'Department Name' (the selling department/store) is used as a supplier-performance proxy throughout Phase E. This is explicitly disclosed in the report and dashboard, not presented as true supplier data.",
+    "inventory_stock_levels": "The dataset has no on-hand inventory/stock quantity field. Phase F therefore builds DEMAND-BASED indicators (order frequency, sales velocity, demand variability) as a proxy for fast/slow movers and stock-out risk, rather than claiming to measure real inventory."
+  },
+  "processed_shape": [
+    180519,
+    55
+  ],
+  "processed_columns": [
+    "Type",
+    "Days for shipping (real)",
+    "Days for shipment (scheduled)",
+    "Benefit per order",
+    "Sales per customer",
+    "Delivery Status",
+    "Late_delivery_risk",
+    "Category Id",
+    "Category Name",
+    "Customer City",
+    "Customer Country",
+    "Customer Id",
+    "Customer Segment",
+    "Customer State",
+    "Customer Zipcode",
+    "Department Id",
+    "Department Name",
+    "Latitude",
+    "Longitude",
+    "Market",
+    "Order City",
+    "Order Country",
+    "Order Customer Id",
+    "order date (DateOrders)",
+    "Order Id",
+    "Order Item Cardprod Id",
+    "Order Item Discount",
+    "Order Item Discount Rate",
+    "Order Item Id",
+    "Order Item Product Price",
+    "Order Item Profit Ratio",
+    "Order Item Quantity",
+    "Sales",
+    "Order Item Total",
+    "Order Profit Per Order",
+    "Order Region",
+    "Order State",
+    "Order Status",
+    "Product Card Id",
+    "Product Category Id",
+    "Product Name",
+    "Product Price",
+    "Product Status",
+    "shipping date (DateOrders)",
+    "Shipping Mode",
+    "is_cancelled_or_fraud",
+    "outlier_Sales",
+    "outlier_Order_Item_Quantity",
+    "outlier_Order_Item_Discount",
+    "outlier_Days_for_shipping_(real)",
+    "order_year",
+    "order_month",
+    "order_year_month",
+    "order_dow",
+    "shipping_delay_days"
+  ]
+}

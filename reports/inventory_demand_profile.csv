@@ -1,0 +1,101 @@
+Product Name,avg_units_per_month,demand_coefficient_of_variation,total_units_sold,mover_class,stockout_risk_proxy
+Perfect Fitness Perfect Rip Deck,2229.64,0.051,73578,Fast Mover,Lower Variability
+Nike Men's Dri-FIT Victory Golf Polo,1905.39,0.055,62878,Fast Mover,Lower Variability
+O'Brien Men's Neoprene Life Vest,1749.55,0.061,57735,Fast Mover,Lower Variability
+Nike Men's Free 5.0+ Running Shoe,1109.58,0.081,36616,Fast Mover,Lower Variability
+Under Armour Girls' Toddler Spine Surge Runni,960.91,0.066,31710,Fast Mover,Lower Variability
+Nike Men's CJ Elite 2 TD Football Cleat,673.15,0.05,22214,Fast Mover,Lower Variability
+Field & Stream Sportsman 16 Gun Fire Safe,524.48,0.046,17308,Fast Mover,Lower Variability
+Pelican Sunstream 100 Kayak,468.94,0.057,15475,Fast Mover,Lower Variability
+Diamondback Women's Serene Classic Comfort Bi,415.58,0.045,13714,Fast Mover,Lower Variability
+ENO Atlas Hammock Straps,30.24,0.538,998,Fast Mover,Lower Variability
+Nike Men's Comfort 2 Slide,30.03,0.528,991,Fast Mover,Lower Variability
+adidas Youth Germany Black/Red Away Match Soc,29.36,0.525,969,Fast Mover,Lower Variability
+Team Golf St. Louis Cardinals Putter Grip,29.03,0.561,958,Fast Mover,Lower Variability
+LIJA Women's Eyelet Sleeveless Golf Polo,28.67,0.556,946,Fast Mover,Lower Variability
+Glove It Women's Imperial Golf Glove,28.52,0.577,941,Fast Mover,Lower Variability
+adidas Men's F10 Messi TRX FG Soccer Cleat,28.45,0.558,939,Fast Mover,Lower Variability
+Glove It Imperial Golf Towel,28.18,0.586,930,Fast Mover,Lower Variability
+Glove It Women's Mod Oval 3-Zip Carry All Gol,28.18,0.603,930,Fast Mover,Lower Variability
+Columbia Men's PFG Anchor Tough T-Shirt,28.12,0.574,928,Fast Mover,Lower Variability
+Bridgestone e6 Straight Distance NFL Carolina,28.12,0.584,928,Fast Mover,Lower Variability
+Under Armour Women's Ignite Slide,27.85,0.647,919,Fast Mover,Lower Variability
+Team Golf Tennessee Volunteers Putter Grip,27.73,0.551,915,Fast Mover,Lower Variability
+Titleist Pro V1x High Numbers Personalized Go,27.52,0.605,908,Fast Mover,Lower Variability
+Nike Women's Tempo Shorts,27.48,0.594,907,Fast Mover,Lower Variability
+Nike Men's Deutschland Weltmeister Winners Bl,27.48,0.598,907,Fast Mover,Lower Variability
+Bridgestone e6 Straight Distance NFL San Dieg,27.45,0.525,906,Fast Mover,Lower Variability
+Team Golf Texas Longhorns Putter Grip,27.12,0.525,895,Fast Mover,Lower Variability
+Hirzl Women's Soffft Flex Golf Glove,26.94,0.598,889,Fast Mover,Lower Variability
+Clicgear 8.0 Shoe Brush,26.91,0.551,888,Fast Mover,Lower Variability
+Hirzl Women's Hybrid Golf Glove,26.91,0.607,888,Fast Mover,Lower Variability
+Top Flite Women's 2014 XL Hybrid,26.88,0.538,887,Fast Mover,Lower Variability
+Team Golf Pittsburgh Steelers Putter Grip,26.88,0.557,887,Fast Mover,Lower Variability
+Glove It Urban Brick Golf Towel,26.82,0.59,885,Fast Mover,Lower Variability
+Nike Dri-FIT Crew Sock 6 Pack,26.76,0.593,883,Fast Mover,Lower Variability
+TYR Boys' Team Digi Jammer,26.67,0.584,880,Medium Mover,Lower Variability
+Team Golf San Francisco Giants Putter Grip,26.39,0.569,871,Medium Mover,Lower Variability
+Clicgear Rovic Cooler Bag,26.27,0.58,867,Medium Mover,Lower Variability
+Hirzl Men's Hybrid Golf Glove,26.18,0.546,864,Medium Mover,Lower Variability
+Titleist Pro V1x Golf Balls,26.15,0.543,863,Medium Mover,Lower Variability
+adidas Men's Germany Black Crest Away Tee,26.03,0.564,859,Medium Mover,Lower Variability
+Titleist Pro V1 High Numbers Personalized Gol,25.79,0.564,851,Medium Mover,Lower Variability
+Under Armour Women's Ignite PIP VI Slide,25.7,0.568,848,Medium Mover,Lower Variability
+Under Armour Women's Micro G Skulpt Running S,25.67,0.569,847,Medium Mover,Lower Variability
+Under Armour Hustle Storm Medium Duffle Bag,25.64,0.595,846,Medium Mover,Lower Variability
+Bag Boy Beverage Holder,25.61,0.544,845,Medium Mover,Lower Variability
+Under Armour Men's Tech II T-Shirt,25.3,0.566,835,Medium Mover,Lower Variability
+Team Golf New England Patriots Putter Grip,24.94,0.642,823,Medium Mover,Lower Variability
+Under Armour Men's Compression EV SL Slide,24.64,0.564,813,Medium Mover,Lower Variability
+Bridgestone e6 Straight Distance NFL Tennesse,24.39,0.596,805,Medium Mover,Lower Variability
+Glove It Women's Mod Oval Golf Glove,24.3,0.584,802,Medium Mover,Lower Variability
+Nike Women's Legend V-Neck T-Shirt,24.27,0.578,801,Medium Mover,Lower Variability
+Titleist Pro V1x High Numbers Golf Balls,24.24,0.538,800,Medium Mover,Lower Variability
+Under Armour Kids' Mercenary Slide,24.09,0.571,795,Medium Mover,Lower Variability
+adidas Kids' F5 Messi FG Soccer Cleat,23.67,0.631,781,Medium Mover,Lower Variability
+Elevation Training Mask 2.0,7.0,2.543,231,Medium Mover,High Variability (Higher Risk Proxy)
+LIJA Women's Mid-Length Panel Golf Shorts,6.88,2.471,227,Medium Mover,High Variability (Higher Risk Proxy)
+Brooks Women's Ghost 6 Running Shoe,6.42,2.385,212,Medium Mover,Lower Variability
+Bag Boy M330 Push Cart,6.3,2.601,208,Medium Mover,High Variability (Higher Risk Proxy)
+Merrell Women's Grassbow Sport Hiking Shoe,6.27,2.422,207,Medium Mover,Lower Variability
+Nike Men's Free TR 5.0 TB Training Shoe,6.24,2.536,206,Medium Mover,High Variability (Higher Risk Proxy)
+Nike Women's Free 5.0 TR FIT PRT 4 Training S,6.24,2.382,206,Medium Mover,Lower Variability
+Polar FT4 Heart Rate Monitor,5.94,2.608,196,Medium Mover,High Variability (Higher Risk Proxy)
+LIJA Women's Argyle Golf Polo,5.91,2.512,195,Medium Mover,High Variability (Higher Risk Proxy)
+TaylorMade White Smoke IN-12 Putter,5.85,2.498,193,Medium Mover,High Variability (Higher Risk Proxy)
+Fitbit The One Wireless Activity & Sleep Trac,5.67,2.394,187,Medium Mover,Lower Variability
+Nike Kids' Grade School KD VI Basketball Shoe,5.64,2.393,186,Medium Mover,Lower Variability
+The North Face Women's Recon Backpack,5.48,2.413,181,Medium Mover,Lower Variability
+MDGolf Pittsburgh Penguins Putter,4.39,2.811,145,Slow Mover,High Variability (Higher Risk Proxy)
+Merrell Men's All Out Flash Trail Running Sho,2.58,2.463,85,Slow Mover,High Variability (Higher Risk Proxy)
+Garmin Approach S3 Golf GPS Watch,2.33,2.544,77,Slow Mover,High Variability (Higher Risk Proxy)
+LIJA Women's Button Golf Dress,2.3,2.45,76,Slow Mover,High Variability (Higher Risk Proxy)
+Cleveland Golf Women's 588 RTX CB Satin Chrom,2.12,2.4,70,Slow Mover,Lower Variability
+Merrell Women's Siren Mid Waterproof Hiking B,2.12,2.656,70,Slow Mover,High Variability (Higher Risk Proxy)
+TaylorMade Women's RBZ SL Rescue,2.06,2.644,68,Slow Mover,High Variability (Higher Risk Proxy)
+Mio ALPHA Heart Rate Monitor/Sport Watch,2.03,2.43,67,Slow Mover,Lower Variability
+adidas Brazuca 2014 Official Match Ball,1.97,2.345,65,Slow Mover,Lower Variability
+Cleveland Golf Collegiate My Custom Wedge 588,1.97,2.479,65,Slow Mover,High Variability (Higher Risk Proxy)
+TaylorMade 2014 Purelite Stand Bag,1.97,2.446,65,Slow Mover,Lower Variability
+Nike Men's Fingertrap Max Training Shoe,1.94,2.493,64,Slow Mover,High Variability (Higher Risk Proxy)
+Yakima DoubleDown Ace Hitch Mount 4-Bike Rack,1.94,2.588,64,Slow Mover,High Variability (Higher Risk Proxy)
+Nike Men's Kobe IX Elite Low Basketball Shoe,1.91,2.627,63,Slow Mover,High Variability (Higher Risk Proxy)
+Ogio Race Golf Shoes,1.85,2.616,61,Slow Mover,High Variability (Higher Risk Proxy)
+insta-bed Neverflat Air Mattress,1.82,2.533,60,Slow Mover,High Variability (Higher Risk Proxy)
+GolfBuddy VT3 GPS Watch,1.79,2.441,59,Slow Mover,Lower Variability
+Merrell Women's Grassbow Sport Waterproof Hik,1.76,2.521,58,Slow Mover,High Variability (Higher Risk Proxy)
+Polar Loop Activity Tracker,1.64,2.361,54,Slow Mover,Lower Variability
+Titleist Small Wheeled Travel Cover,1.64,2.448,54,Slow Mover,High Variability (Higher Risk Proxy)
+Pelican Maverick 100X Kayak,1.21,5.745,40,Slow Mover,High Variability (Higher Risk Proxy)
+Garmin Approach S4 Golf GPS Watch,1.09,5.745,36,Slow Mover,High Variability (Higher Risk Proxy)
+Total Gym 1400,1.09,5.745,36,Slow Mover,High Variability (Higher Risk Proxy)
+Garmin Forerunner 910XT GPS Watch,1.06,5.745,35,Slow Mover,High Variability (Higher Risk Proxy)
+Titleist Club Glove Travel Cover,1.03,5.745,34,Slow Mover,High Variability (Higher Risk Proxy)
+GoPro HERO3+ Black Edition Camera,0.97,5.745,32,Slow Mover,High Variability (Higher Risk Proxy)
+Diamondback Boys' Insight 24 Performance Hybr,0.88,5.745,29,Slow Mover,High Variability (Higher Risk Proxy)
+Diamondback Girls' Clarity 24 Hybrid Bike 201,0.85,5.745,28,Slow Mover,High Variability (Higher Risk Proxy)
+Stiga Master Series ST3100 Competition Indoor,0.82,5.745,27,Slow Mover,High Variability (Higher Risk Proxy)
+Bowflex SelectTech 1090 Dumbbells,0.21,5.745,7,Slow Mover,High Variability (Higher Risk Proxy)
+SOLE E35 Elliptical,0.18,5.745,6,Slow Mover,High Variability (Higher Risk Proxy)
+Bushnell Pro X7 Jolt Slope Rangefinder,0.12,5.745,4,Slow Mover,High Variability (Higher Risk Proxy)
+SOLE E25 Elliptical,0.06,5.745,2,Slow Mover,High Variability (Higher Risk Proxy)

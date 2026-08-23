@@ -1,0 +1,23 @@
+{
+  "excluded_months_data_artifact": [
+    "2017-11",
+    "2017-12",
+    "2018-01"
+  ],
+  "train_months": 27,
+  "test_months": 6,
+  "baseline_naive_mae": 825.3,
+  "baseline_naive_rmse": 904.2,
+  "holt_winters_mae": 581.5,
+  "holt_winters_rmse": 643.6,
+  "improvement_over_baseline_pct": 29.5,
+  "selected_model": "Holt-Winters (additive trend + seasonality)",
+  "next_6_month_forecast": {
+    "2017-10-01": 11115.2,
+    "2017-11-01": 10773.8,
+    "2017-12-01": 11077.8,
+    "2018-01-01": 10939.6,
+    "2018-02-01": 10013.3,
+    "2018-03-01": 10953.1
+  }
+}

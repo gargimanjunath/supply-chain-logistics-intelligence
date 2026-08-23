@@ -1,0 +1,17 @@
+{
+  "total_revenue": 36784735.01,
+  "total_orders": 65752,
+  "total_units_sold": 384079,
+  "average_order_value": 559.45,
+  "average_delivery_time_days": 3.5,
+  "on_time_delivery_rate_pct": 45.17,
+  "late_delivery_rate_pct": 54.83,
+  "cancellation_rate_pct": 2.05,
+  "sales_growth_rate_pct_first_vs_last_complete_month": 8.77,
+  "top_category": "Fishing",
+  "top_category_revenue_share_pct": 18.84,
+  "top_region": "Western Europe",
+  "top_region_revenue_share_pct": 16.02,
+  "top_department_proxy_supplier": "Fan Shop",
+  "note_on_avg_shipping_cost": "Dataset has no direct 'shipping cost' field. Order Item Discount is NOT a shipping cost - true shipping cost is not computable from this dataset and is documented as a limitation rather than approximated silently."
+}

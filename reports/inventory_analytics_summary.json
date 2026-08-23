@@ -1,0 +1,13 @@
+{
+  "note": "No on-hand inventory/stock field exists in this dataset. These are DEMAND-BASED indicators (order/sales velocity and variability), not measured stock levels, and are presented as such.",
+  "n_products_profiled": 100,
+  "fast_movers_count": 34,
+  "slow_movers_count": 33,
+  "top_5_fast_movers": {
+    "Perfect Fitness Perfect Rip Deck": 2229.64,
+    "Nike Men's Dri-FIT Victory Golf Polo": 1905.39,
+    "O'Brien Men's Neoprene Life Vest": 1749.55,
+    "Nike Men's Free 5.0+ Running Shoe": 1109.58,
+    "Under Armour Girls' Toddler Spine Surge Runni": 960.91
+  }
+}

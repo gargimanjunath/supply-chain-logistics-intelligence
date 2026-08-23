@@ -1,0 +1,8 @@
+,Days for shipping (real),Days for shipment (scheduled),Sales,Order Item Quantity,Order Item Discount,Order Item Profit Ratio,Late_delivery_risk
+Days for shipping (real),1.0,0.516,0.002,-0.001,0.002,-0.005,0.401
+Days for shipment (scheduled),0.516,1.0,0.006,-0.003,0.003,-0.002,-0.369
+Sales,0.002,0.006,1.0,0.106,0.617,-0.002,-0.004
+Order Item Quantity,-0.001,-0.003,0.106,1.0,0.065,0.001,-0.0
+Order Item Discount,0.002,0.003,0.617,0.065,1.0,-0.003,-0.001
+Order Item Profit Ratio,-0.005,-0.002,-0.002,0.001,-0.003,1.0,-0.002
+Late_delivery_risk,0.401,-0.369,-0.004,-0.0,-0.001,-0.002,1.0

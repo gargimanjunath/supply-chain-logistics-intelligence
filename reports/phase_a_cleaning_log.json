@@ -1,0 +1,64 @@
+{
+  "raw_shape": [
+    180519,
+    53
+  ],
+  "grain": "one row = one order line item; unique key = Order Item Id",
+  "unique_orders": 65752,
+  "avg_items_per_order": 2.745,
+  "dropped_columns": [
+    "Product Description",
+    "Customer Email",
+    "Customer Password",
+    "Customer Fname",
+    "Customer Lname",
+    "Customer Street",
+    "Order Zipcode",
+    "Product Image"
+  ],
+  "missing_values_before_fill": {
+    "Customer Zipcode": 3
+  },
+  "fully_duplicated_rows": 0,
+  "bad_order_dates": 0,
+  "bad_shipping_dates": 0,
+  "suspicious_numeric_rows": {
+    "Sales": 0,
+    "Order Item Quantity": 0,
+    "Product Price": 0,
+    "Days for shipping (real)": 0
+  },
+  "iqr_outlier_counts": {
+    "Sales": 488,
+    "Order Item Quantity": 0,
+    "Days for shipping (real)": 0,
+    "Benefit per order": 18942
+  },
+  "order_status_breakdown": {
+    "COMPLETE": 59491,
+    "PENDING_PAYMENT": 39832,
+    "PROCESSING": 21902,
+    "PENDING": 20227,
+    "CLOSED": 19616,
+    "ON_HOLD": 9804,
+    "SUSPECTED_FRAUD": 4062,
+    "CANCELED": 3692,
+    "PAYMENT_REVIEW": 1893
+  },
+  "delivery_status_breakdown": {
+    "Late delivery": 98977,
+    "Advance shipping": 41592,
+    "Shipping on time": 32196,
+    "Shipping canceled": 7754
+  },
+  "limitations": [
+    "No explicit 'Supplier' entity/table exists in this dataset. 'Department Name' is the closest available grouping and is used as a proxy for supplier/business-unit performance in Phase E, with this substitution explicitly documented wherever it is used.",
+    "No physical on-hand inventory / stock-level field exists. Phase F (Inventory Analytics) is therefore demand-based (sales & quantity history) rather than true stock-level inventory analysis.",
+    "No product cost / COGS field exists beyond 'Benefit per order' and 'Order Item Profit Ratio', so supplier cost-competitiveness cannot be independently verified."
+  ],
+  "cleaned_shape": [
+    180519,
+    56
+  ],
+  "output_file": "data/processed\\cleaned_supply_chain.csv"
+}

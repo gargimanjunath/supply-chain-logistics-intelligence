@@ -1,0 +1,70 @@
+{
+  "descriptive_statistics": {
+    "Sales": {
+      "count": 180519.0,
+      "mean": 203.77,
+      "std": 132.27,
+      "min": 9.99,
+      "25%": 119.98,
+      "50%": 199.92,
+      "75%": 299.95,
+      "max": 1999.99
+    },
+    "Order Item Quantity": {
+      "count": 180519.0,
+      "mean": 2.13,
+      "std": 1.45,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "Order Item Discount": {
+      "count": 180519.0,
+      "mean": 20.66,
+      "std": 21.8,
+      "min": 0.0,
+      "25%": 5.4,
+      "50%": 14.0,
+      "75%": 29.99,
+      "max": 500.0
+    },
+    "Days for shipping (real)": {
+      "count": 180519.0,
+      "mean": 3.5,
+      "std": 1.62,
+      "min": 0.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 5.0,
+      "max": 6.0
+    }
+  },
+  "outlier_rate_pct": {
+    "outlier_Sales": 0.27,
+    "outlier_Order_Item_Quantity": 0.0,
+    "outlier_Order_Item_Discount": 4.18,
+    "outlier_Days_for_shipping_(real)": 0.0
+  },
+  "anova_shipping_mode_vs_delivery_time": {
+    "test": "One-way ANOVA",
+    "H0": "Mean actual delivery days is equal across all shipping modes",
+    "f_statistic": 38762.414,
+    "p_value": 0.0,
+    "conclusion": "Reject H0 (p < 0.001): shipping mode has a statistically significant relationship with delivery time."
+  },
+  "chisquare_segment_vs_late_delivery": {
+    "test": "Chi-square test of independence",
+    "H0": "Customer segment and late-delivery risk are independent",
+    "chi2_statistic": 1.025,
+    "dof": 2,
+    "p_value": 0.5990740516327164,
+    "conclusion": "Fail to reject H0: customer segment does not predict late delivery."
+  },
+  "confidence_interval_mean_shipping_delay_days": {
+    "mean": 0.5658,
+    "95pct_ci_lower": 0.5589,
+    "95pct_ci_upper": 0.5727
+  }
+}
